@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "outDir": "./dist",
+        "moduleResolution": "node",
+        "module": "CommonJS",
+        "target": "ES5",
+        "importHelpers": true,
+        "downlevelIteration": false,
+        "skipLibCheck": true,
+        "skipDefaultLibCheck": true
+    },
+    "include": ["src/**/*.ts"]
+}

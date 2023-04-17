@@ -1,0 +1,9 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        "downlevelIteration": false,
+        "importHelpers": true,
+        "outDir": "./dist/down-false"
+    },
+    "include": ["src/**/*.ts"]
+}

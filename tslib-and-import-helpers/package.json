@@ -1,0 +1,17 @@
+{
+  "name": "tslib-and-import-helpers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compiler:helpers": "tsc -p tsconfig-helpers-true.json && tsc -p tsconfig-helpers-false.json",
+    "compiler:down": "tsc -p tsconfig-down-true.json && tsc -p tsconfig-down-false.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.4"
+  }
+}

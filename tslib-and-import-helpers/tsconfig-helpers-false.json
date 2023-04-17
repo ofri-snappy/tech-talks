@@ -1,0 +1,8 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        "importHelpers": false,
+        "outDir": "./dist/helpers-false"
+    },
+    "include": ["src/**/*.ts"]
+}
